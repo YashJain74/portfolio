@@ -1,2 +1,0 @@
-# portfolio
-CLOUD COMPUTING CELL PROJECT
