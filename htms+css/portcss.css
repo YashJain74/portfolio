@@ -1,0 +1,313 @@
+.top{
+   
+    height: 100px;
+    
+    margin-bottom: 40px;
+    width: 100%;
+    
+   display: flex;
+   background-color: black;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.name{
+    margin: auto;
+    color: white;
+    
+}
+html{
+    scroll-behavior: smooth;
+  
+}
+.logo{
+    height: 100px;
+
+    display: inline-block;
+} .menu{
+  display: inline-block;
+} 
+.upar ul li{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+    margin: 10px 15px;
+}
+.io{
+    display: inline-block;
+}
+ 
+    
+    .contents{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: fff;
+      
+    }
+    .myimg{
+        height: 400px;
+        width: 400px;
+       border: 30px; ;
+        border-radius: 40%;
+       margin-left: 150px;
+       border-color: rgb(230, 132, 13);
+       transition: transform 0.5s ease-in-out;
+      
+    }
+     .myimg:hover{
+        transform: rotateY(360deg) ;
+        transition: 2s ;
+       
+    }
+    .mystyle {
+        transition: all 1s ease;
+    }
+    #HEADER{
+        background-image: url(blackback.jpg);
+    }
+    .upar ul li a{
+        color: aliceblue;
+        font-size: 20px;
+        
+    }
+    .upar ul li a ::after{
+        content :"";
+        width: 0;
+        color: aquamarine;
+        position: absolute;
+        bottom: -8px;
+        transition: all 0.5s;
+        height: 2px;
+        left: 0;
+
+    }
+    .upar ul li a:hover::after{
+      
+        width: 100%;
+      
+    }
+.yss{
+   
+    
+    display: inline-block;
+    margin-left: 0px;
+    align-items: start;
+
+    vertical-align: top;
+   
+   }
+.webd{
+    
+    display: inline-block;
+  text-align:center;
+  margin-left: 300px;
+  margin-top: 200px;
+   
+    }
+    .photo .webd h2{
+        font-family: monospace;
+        font-size: 40px;
+    }
+    .photo .webd h3{
+        font-family: monospace;
+        font-size: 20px;
+    }
+    .aboutme{
+        font-family: 'Martian Mono', monospace;
+font-family: 'Raleway', sans-serif;
+       font-size: 30px;
+       width: 900px;
+       text-align: center;
+      margin-left: 200px;
+    }
+    
+    .abt{
+        color: #000;
+       position: relative;
+        text-decoration: none;
+        font-family: 'Martian Mono', monospace;
+        font-family: 'Raleway', sans-serif;;
+        text-align: center;
+        font-size: 40px;
+      }
+      
+      .abt::before {
+        background: hsl(45 100% 70%);
+        content: "";
+        inset: 0;
+        position: absolute;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s ease-in-out;
+        z-index: -1;
+      }
+      
+      .abt:hover::before {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+      .sk{
+            margin-left: 550px;
+       border-radius: 100%;
+        height: 150px;
+        transition: transform 0.5s ease-in-out;
+
+        
+      }
+      .skillset{
+        margin-left: 300px;
+      }
+      .sk:hover{
+        transform: rotateY(360deg);
+        transform: 2s;
+      }
+      .HTML{
+        background-color: rgb(36, 29, 29);
+        color: rgb(255, 255, 255); 
+        border-color: brown;
+        border-radius: 0%;
+        height: 70px;
+        width: 130px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 30px;
+       
+        font-family: 'Martian Mono', monospace;
+        margin-bottom: 40px;
+        text-align: center;
+        margin-top: 15PX;
+        vertical-align: middle;
+      }
+      .CSS
+      {
+        background-color: rgb(36, 29, 29);
+        color: rgb(255, 255, 255); 
+        border-color: brown;
+        border-radius: 0%;
+        height: 70px;
+        width: 130px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 30px;
+        font-family: 'Martian Mono', monospace;
+        margin-bottom: 40px;
+        text-align: center;
+       
+        vertical-align: middle;
+      }
+      .C{
+        background-color: rgb(36, 29, 29);
+        color: rgb(255, 255, 255); 
+        border-color: brown;
+        border-radius: 0%;
+        height: 70px;
+        width: 130px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 30px;
+        display: inline-block;
+        margin-bottom: 40px;
+        text-align: center;
+        font-family: 'Martian Mono', monospace;
+        vertical-align: middle;
+      }
+      .Cpp{
+        background-color: rgb(36, 29, 29);
+        color: rgb(255, 255, 255); 
+        border-color: brown;
+        border-radius: 0%;
+        height: 70px;
+        width: 130px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 30px;
+        font-family: 'Martian Mono', monospace;
+        margin-bottom: 40px;
+        text-align: center;
+        
+        vertical-align: middle;
+      }
+      .HTML:hover{ background-color: rgb(255, 255, 255);
+        color: rgb(245, 10, 10); 
+        transition: 1s;
+        transform: rotateX(360);
+
+      }
+      .CSS:hover{ background-color: rgb(255, 255, 255);
+        color: rgb(245, 10, 10); 
+        transition: 1s;
+
+      }
+      .C:hover{ background-color: rgb(255, 255, 255);
+        color: rgb(245, 10, 10); 
+        transition: 1s;
+
+      }
+      .Cpp:hover{ background-color: rgb(255, 255, 255);
+        color: rgb(245, 10, 10); 
+        transition: 1s;
+
+      }
+      .ty{
+        display: inline-block;
+        margin-left: 100px
+      }
+      .yt{
+        display: inline-block;
+        margin-left: 100px;
+      }
+      .ui
+      {
+        display: inline-block;
+      }
+      .form{
+        display: inline-block;
+      }
+.getintouch{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.tag-contact{
+    font-family: 'Martian Mono', monospace;
+    margin: auto;
+    margin-left: 550px;
+    font-size: 60px;
+}
+.submitttt{
+    background-color: rgb(1, 116, 136);
+    color:aliceblue;
+    border-radius: 20px;
+    width: 60px;
+    height: 40px;
+   border: none;
+   cursor: pointer;
+   margin-right: 30px;
+   text-decoration: solid;
+   font-weight: bold;
+}
+   .op{
+    font-family: 'Martian Mono', monospace;
+
+   }  
+   .geti{
+    font-family: 'Martian Mono', monospace;
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 500px;
+   }
+   body{
+    background-image: url(white.jpg);
+   }
+     
+
+
+
+    
+
+     
+     
+    
+
+    
+

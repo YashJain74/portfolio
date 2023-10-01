@@ -1,0 +1,110 @@
+p{
+    font-family: roboto,Arial;
+}
+.divs{
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+   
+    width: 300px;
+
+    vertical-align: top;
+    text-align: left;
+    
+}
+.divs:hover
+{
+    background-color: rgb(241, 238, 238);
+  
+}
+.thumb:hover{
+   
+    border-radius: 0;
+    transition: border-radius 1s;
+}
+
+.thumb{
+    width: 300px;
+    position: top;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.headlines{
+    
+    font-family: roboto,Arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 2px;
+           
+    vertical-align: top;
+   
+    
+    display: inline-block;
+}
+.stats{
+   
+   
+    vertical-align: top;
+    font-family: roboto,arial;
+    color: gray;
+    font-size: 10px;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.searchbar{
+    display:inline-block ;
+    height: 33px;
+    width: 130px;
+    
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-bottom: 2px;
+    /* border-radius: 50%; */
+}
+.searchbutton{
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    height: 35px;
+    background-color: rgb(202, 198, 198);
+}
+
+.channel 
+{display: inline-block;
+    font-weight: bold;
+    vertical-align: top;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: gray;
+    font-size: 12px;
+}
+.channeldp{
+    margin-top: 2px;
+    border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.videoinfo{
+    width:250px;
+    display: inline-block;
+
+}
+.videoinfo1{
+     margin-left: 5px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+ .yt{
+    display: inline-block;
+    height: 40px;
+    width:90px;
+    padding-right : 500px;
+ }
+
+    
